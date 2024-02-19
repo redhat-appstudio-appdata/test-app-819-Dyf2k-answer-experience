@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: maven-hello-world-efmq
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-819/maven-hello-world-efmq@sha256:2db88062d25aba9d7f07d33d3e4d72a59e64ab13d50a562e9a8092be31f250cb
         name: my-java-quarkus
         ports:
         - containerPort: 8081
